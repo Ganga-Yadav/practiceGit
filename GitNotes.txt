@@ -1,0 +1,19 @@
+Git and Github
+download and install git cli
+signin Github and create new repo
+
+echo "# practiceGit" >> README.md
+initialize an existing directory as a Git repository
+	git init
+to ADD or include in what will be committed
+	git add README.md
+to unstage
+	git rm --cached <file>
+CREATING A STAGING ENVIRONMENT ON LOCAL 
+	git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Ganga-Yadav/practiceGit.git
+git push -u origin main
+
+## Pull Request
+git pull origin main
