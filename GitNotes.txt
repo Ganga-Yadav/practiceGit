@@ -9,11 +9,17 @@ to ADD or include in what will be committed
 	git add README.md
 to unstage
 	git rm --cached <file>
-CREATING A STAGING ENVIRONMENT ON LOCAL 
+CREATING A STAGING ENVIRONMENT in our LOCAL 
 	git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:Ganga-Yadav/practiceGit.git
 git push -u origin main
 
-## Pull Request
-git pull origin main
+create branch :
+		git branch branchName
+		git checkout branchName
+	write code and compleate story:
+		git commit -m "compleate story"
+	again merge it in main branch:
+		git checkout main
+		git merge branchName
